@@ -5,7 +5,7 @@ import nodemailer from "nodemailer";
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://global-connect-gold.vercel.app",
+  "https://aliwebapp2.vercel.app/"
 ];
 
 

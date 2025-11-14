@@ -74,7 +74,7 @@ const formData = {
 
   try {
     setLoading(true);
-    const res = await fetch("http://localhost:3000/api/verify-identity", {
+    const res = await fetch("https://aliwebapp2.vercel.app/api/verify-identity", {
       method: "POST",
       
       headers: { "Content-Type": "application/json" },

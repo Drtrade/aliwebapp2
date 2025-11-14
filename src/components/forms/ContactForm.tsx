@@ -22,7 +22,7 @@ const ContactForm = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/api/contact",
+        "https://aliwebapp2.vercel.app/api/contact",
         {
           method: "POST",
           headers: {
